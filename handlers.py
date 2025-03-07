@@ -141,7 +141,7 @@ async def show_trending_music(query, context):
 # Trenddagi musiqalarni olish
 async def get_trending_music():
     # YouTube API kaliti
-    YOUTUBE_API_KEY = 'AIzaSyCwcMURKyKi1UeJgKdiqfuaqHJiNYalBjQ'
+    YOUTUBE_API_KEY = ''
 
     # Mashhur videolar ro'yxatini olish
     url = f"https://www.googleapis.com/youtube/v3/videos?part=snippet&chart=mostPopular&regionCode=US&maxResults=40&key={YOUTUBE_API_KEY}"
