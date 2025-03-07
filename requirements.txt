@@ -1,0 +1,11 @@
+python-telegram-bot==20.0
+pillow
+opencv-python
+moviepy
+pytube
+numpy
+filetype
+pytz
+yt_dlp
+os
+re
